@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0a89affcc32cc142ae531605f86bfbb, type: 3}
+  m_Name: Example Note
+  m_EditorClassIdentifier: 
+  snap: 1
+  snapSize: 10
+  snapColor: {r: 0, g: 0, b: 0, a: 0.1}
+  noteWindowRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 570
+    height: 560
+  scrollPosition: {x: 0, y: 0}
+  windows:
+  - className: Header-35037
+    type: 1
+    id: 35037
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 20
+      width: 230
+      height: 50
+    windowMinSize: {x: 100, y: 30}
+    windowMaxSize: {x: 500, y: 100}
+    connects: []
+    header:
+      header: EXAMPLE NOTE
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0.26375303, g: 0.7921569, b: 0.25882354, a: 0.3}
+    textArea:
+      text: Text
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+  - className: TextArea-62023
+    type: 2
+    id: 62023
+    moveHandleActive: 0
+    sizeHandleActive: 0
+    arrowHandleActive: 0
+    rect:
+      serializedVersion: 2
+      x: 40
+      y: 160
+      width: 230
+      height: 100
+    windowMinSize: {x: 100, y: 50}
+    windowMaxSize: {x: 0, y: 0}
+    connects:
+    - id: 35037
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 95
+        width: 70
+        height: 40
+      moveHandleActive: 0
+      label: 1
+      startArrow: 1
+      endArrow: 1
+      labelText: Example
+      offset: {x: 0, y: 0}
+    header:
+      header: Header
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
+      backgroundColor: {r: 0, g: 0, b: 0, a: 0.3}
+    textArea:
+      text: '<color=green>Example</color>
+
+        <i>Example</i>
+
+        <size=10>Example</size>
+
+        <b>Example</b>
+
+        <i><b>Example</b></i>'
+      fontStyle: 0
+      fontSize: 15
+      fontColor: {r: 1, g: 1, b: 1, a: 1}
