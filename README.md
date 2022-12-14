@@ -9,5 +9,5 @@ If you have any questions, suggestions or feedback, do not hesitate to contact m
 
 Contact 
 Mail: contact.sentinelgame@gmail.com 
-Website: https://sentinelasset.store
-Discord: https://discord.gg/ShG2erm9QQ
+Website: https://sentinelasset.store 
+Discord: https://discord.gg/ShG2erm9QQ 
